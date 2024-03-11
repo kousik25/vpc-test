@@ -11,4 +11,7 @@ module "roboshop" {
   # private subnet
   private_subnets_cidr = var.private_subnets_cidr
 
+   # private subnet
+  database_subnets_cidr = var.database_subnets_cidr
+
 }
